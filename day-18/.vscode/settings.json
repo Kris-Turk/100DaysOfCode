@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./hirst-painting/Lib/site-packages/colorgram"
+    ]
+}
