@@ -4,7 +4,7 @@ from food import Food
 from scoreboard import Scoreboard
 import time
 
-START_LENGTH = 3
+
 
 screen = Screen()
 screen.setup(width=600, height=600)
@@ -15,7 +15,7 @@ screen.tracer(0)
 
 # Make Snake Body
 
-snake = Snake(START_LENGTH)
+snake = Snake()
 food = Food()
 scoreboard = Scoreboard()
 
