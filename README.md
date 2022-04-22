@@ -7,3 +7,6 @@ If you really want  to see the first 14 days they are available at [my replit](h
 The point of this Git is simply for my own tracking and accountability.
 
 At this time I have created no documentation for each day's project's, although I may go back and fill in days 15-22 retrospectively at some point.
+
+# Day 24
+
