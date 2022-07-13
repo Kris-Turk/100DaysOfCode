@@ -29,9 +29,20 @@ pa = {row.letter:row.code for (index,row) in df.iterrows() }
 
 
 #TODO 2. Create a list of the phonetic code words from a word that the user inputs.
-user_string = input("Enter a word: ")
 
-pw = [ pa[letter.upper()] for letter in user_string]
 
-print(pw)
+
+
+def enter_pw():
+    user_string = input("Enter a word: ")
+    try:
+        pw = [ pa[letter.upper()] for letter in user_string]
+    except KeyError:
+        print("Sorry, only letters in the alphabet please.")
+        enter_pw()
+    else:
+        print(pw)
+        
+enter_pw()
+# print(pw)
 

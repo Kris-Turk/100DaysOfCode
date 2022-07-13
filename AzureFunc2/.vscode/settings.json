@@ -1,8 +1,7 @@
 {
-    "python.linting.enabled": true,
     "azureFunctions.deploySubpath": ".",
     "azureFunctions.scmDoBuildDuringDeployment": true,
-    "azureFunctions.pythonVenv": "birthdaywisher",
+    "azureFunctions.pythonVenv": "venv",
     "azureFunctions.projectLanguage": "Python",
     "azureFunctions.projectRuntime": "~4",
     "debug.internalConsoleOptions": "neverOpen"
